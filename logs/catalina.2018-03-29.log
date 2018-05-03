@@ -1,0 +1,979 @@
+29-Mar-2018 11:48:11.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Mar-2018 11:48:11.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+29-Mar-2018 11:48:11.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+29-Mar-2018 11:48:11.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+29-Mar-2018 11:48:11.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2018 11:48:11.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|RIPLC0018
+29-Mar-2018 11:48:11.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2018 11:48:11.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2018 11:48:11.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+29-Mar-2018 11:48:11.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+29-Mar-2018 11:48:11.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+29-Mar-2018 11:48:11.635 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+29-Mar-2018 11:48:11.847 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2018 11:48:12.056 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2018 11:48:12.059 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2018 11:48:12.061 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2018 11:48:12.061 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 872 ms
+29-Mar-2018 11:48:12.173 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2018 11:48:12.173 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+29-Mar-2018 11:48:12.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml]
+29-Mar-2018 11:48:12.284 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 11:48:17.027 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = dbtreport Ignoring unknown property: value of "DB Connection" for "description" property
+29-Mar-2018 11:48:17.060 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:19.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml] has finished in [7,424] ms
+29-Mar-2018 11:48:19.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+29-Mar-2018 11:48:19.626 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 11:48:23.244 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:24.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [4,564] ms
+29-Mar-2018 11:48:24.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+29-Mar-2018 11:48:24.218 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 11:48:25.167 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:48:25.167 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:48:25.168 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:48:25.168 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:48:25.212 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:26.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,987] ms
+29-Mar-2018 11:48:26.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+29-Mar-2018 11:48:26.277 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:26.279 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [108] ms
+29-Mar-2018 11:48:26.279 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+29-Mar-2018 11:48:28.786 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:48:28.786 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:48:28.813 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:29.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [3,215] ms
+29-Mar-2018 11:48:29.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+29-Mar-2018 11:48:29.589 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:29.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [96] ms
+29-Mar-2018 11:48:29.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+29-Mar-2018 11:48:30.731 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:30.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,190] ms
+29-Mar-2018 11:48:30.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS]
+29-Mar-2018 11:48:30.863 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:30.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS] has finished in [83] ms
+29-Mar-2018 11:48:30.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+29-Mar-2018 11:48:30.986 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:30.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [125] ms
+29-Mar-2018 11:48:30.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+29-Mar-2018 11:48:31.108 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:31.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [120] ms
+29-Mar-2018 11:48:31.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+29-Mar-2018 11:48:31.242 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:31.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [134] ms
+29-Mar-2018 11:48:31.247 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2018 11:48:31.255 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2018 11:48:31.257 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 19195 ms
+29-Mar-2018 11:48:33.683 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+29-Mar-2018 11:48:33.695 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+29-Mar-2018 11:48:33.705 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 11:48:34.523 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:48:34.524 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:48:34.524 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:48:34.524 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:48:34.532 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:48:35.131 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,435] ms
+29-Mar-2018 11:48:37.542 SEVERE [http-nio-8080-exec-3] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+29-Mar-2018 11:49:17.117 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 11:49:17.731 WARNING [http-nio-8080-exec-13] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:49:17.731 WARNING [http-nio-8080-exec-13] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:49:17.731 WARNING [http-nio-8080-exec-13] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 11:49:17.732 WARNING [http-nio-8080-exec-13] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 11:49:17.742 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 11:49:18.571 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 11:50:19.194 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+29-Mar-2018 12:00:30.195 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+29-Mar-2018 12:00:30.198 WARNING [http-nio-8080-exec-28] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 12:00:30.986 WARNING [http-nio-8080-exec-28] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:00:30.986 WARNING [http-nio-8080-exec-28] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:00:30.986 WARNING [http-nio-8080-exec-28] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:00:30.986 WARNING [http-nio-8080-exec-28] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:00:30.996 INFO [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:00:31.738 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,542] ms
+29-Mar-2018 12:00:31.744 INFO [http-nio-8080-exec-29] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+29-Mar-2018 12:00:33.175 SEVERE [http-nio-8080-exec-22] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+29-Mar-2018 12:09:00.633 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 12:09:01.579 WARNING [http-nio-8080-exec-27] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:09:01.581 WARNING [http-nio-8080-exec-27] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:09:01.581 WARNING [http-nio-8080-exec-27] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:09:01.582 WARNING [http-nio-8080-exec-27] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:09:01.600 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:09:02.620 INFO [71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 12:09:35.217 INFO [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 12:09:35.886 WARNING [http-nio-8080-exec-31] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:09:35.886 WARNING [http-nio-8080-exec-31] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:09:35.892 WARNING [http-nio-8080-exec-31] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:09:35.893 WARNING [http-nio-8080-exec-31] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:09:35.919 INFO [http-nio-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:09:36.826 INFO [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 12:15:45.408 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 12:15:46.096 WARNING [http-nio-8080-exec-32] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:15:46.096 WARNING [http-nio-8080-exec-32] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:15:46.097 WARNING [http-nio-8080-exec-32] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:15:46.097 WARNING [http-nio-8080-exec-32] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:15:46.144 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:15:47.285 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 12:24:49.309 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 12:24:49.956 WARNING [http-nio-8080-exec-41] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:24:49.957 WARNING [http-nio-8080-exec-41] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:24:49.958 WARNING [http-nio-8080-exec-41] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:24:49.958 WARNING [http-nio-8080-exec-41] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:24:49.970 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:24:50.749 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 12:24:56.360 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+29-Mar-2018 12:29:27.761 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+29-Mar-2018 12:29:27.764 WARNING [http-nio-8080-exec-58] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 12:29:28.428 WARNING [http-nio-8080-exec-58] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:29:28.428 WARNING [http-nio-8080-exec-58] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:29:28.428 WARNING [http-nio-8080-exec-58] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:29:28.428 WARNING [http-nio-8080-exec-58] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:29:28.440 INFO [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:29:29.239 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,477] ms
+29-Mar-2018 12:29:29.242 INFO [http-nio-8080-exec-59] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+29-Mar-2018 12:29:30.795 SEVERE [http-nio-8080-exec-55] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+29-Mar-2018 12:31:29.827 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 12:31:29.830 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [RestService]
+29-Mar-2018 12:31:30.850 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [RestService]
+29-Mar-2018 12:31:31.864 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [RestService]
+29-Mar-2018 12:31:32.032 WARNING [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.DualStackPlainSocketImpl.connect0(Native Method)
+ java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+ java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+ java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+ java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+ java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+ java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.net.Socket.connect(Socket.java:589)
+ java.net.Socket.connect(Socket.java:538)
+ java.net.Socket.<init>(Socket.java:434)
+ java.net.Socket.<init>(Socket.java:244)
+ com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+ com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+ com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+ com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+ com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+ com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+ com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+ sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+ sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+ java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+ com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+ com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+ com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+ org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+ org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:257)
+ org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:2313)
+ org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:2299)
+ org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2043)
+ org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1543)
+ service.PFMSPaymentService.payment_generate_Xml(PFMSPaymentService.java:71)
+ rest.PFMSPayment.get_pfms_Payment_details(PFMSPayment.java:37)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.lang.reflect.Method.invoke(Method.java:498)
+ org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+ org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+ org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+ org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+ org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+ org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+ org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+ org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+ org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+ org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+ org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+ org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+ org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+ org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+ org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+ org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+ org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+ org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+ org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+ org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+ org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+29-Mar-2018 12:31:32.045 WARNING [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 12:31:32.046 SEVERE [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6daddea4]) and a value of type [org.glassfish.jersey.internal.Errors] (value [org.glassfish.jersey.internal.Errors@11b87077]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Mar-2018 12:31:32.050 SEVERE [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@23189a31]) and a value of type [org.glassfish.jersey.process.internal.RequestScope.Instance] (value [Instance{id=e04eab87-29a0-4840-8bc0-c6249704eea4, referenceCounter=2, store size=5}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+29-Mar-2018 12:31:32.589 WARNING [http-nio-8080-exec-55] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:31:32.589 WARNING [http-nio-8080-exec-55] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:31:32.590 WARNING [http-nio-8080-exec-55] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:31:32.590 WARNING [http-nio-8080-exec-55] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:31:32.607 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:31:33.116 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 12:31:33.138 WARNING [http-nio-8080-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 12:31:33.640 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+29-Mar-2018 12:31:36.669 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+29-Mar-2018 12:31:36.672 WARNING [http-nio-8080-exec-59] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 12:31:37.170 WARNING [http-nio-8080-exec-59] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:31:37.170 WARNING [http-nio-8080-exec-59] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:31:37.171 WARNING [http-nio-8080-exec-59] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:31:37.171 WARNING [http-nio-8080-exec-59] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:31:37.180 INFO [http-nio-8080-exec-59] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:31:37.695 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,026] ms
+29-Mar-2018 12:31:37.700 INFO [http-nio-8080-exec-58] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+29-Mar-2018 12:31:39.281 SEVERE [http-nio-8080-exec-66] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+29-Mar-2018 12:33:32.189 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+29-Mar-2018 12:33:33.299 WARNING [http-nio-8080-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 12:33:34.379 WARNING [http-nio-8080-exec-65] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:33:34.379 WARNING [http-nio-8080-exec-65] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:33:34.380 WARNING [http-nio-8080-exec-65] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+29-Mar-2018 12:33:34.380 WARNING [http-nio-8080-exec-65] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+29-Mar-2018 12:33:34.395 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 12:33:35.136 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+29-Mar-2018 12:33:35.166 WARNING [http-nio-8080-exec-70] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 12:33:35.669 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+29-Mar-2018 14:21:20.772 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+29-Mar-2018 14:21:20.812 WARNING [http-nio-8080-exec-77] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 14:21:22.530 INFO [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 14:21:23.853 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+29-Mar-2018 14:21:33.260 INFO [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+29-Mar-2018 14:21:33.280 WARNING [http-nio-8080-exec-81] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 14:21:34.425 INFO [http-nio-8080-exec-81] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 14:21:35.082 INFO [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+29-Mar-2018 14:21:45.425 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+29-Mar-2018 14:21:45.443 WARNING [http-nio-8080-exec-86] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+29-Mar-2018 14:21:46.109 INFO [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 14:21:47.350 INFO [183] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+29-Mar-2018 14:21:47.379 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+29-Mar-2018 14:21:47.398 WARNING [http-nio-8080-exec-89] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 14:21:48.209 INFO [http-nio-8080-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 14:21:48.812 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+29-Mar-2018 14:21:58.774 WARNING [http-nio-8080-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+29-Mar-2018 14:21:59.276 INFO [http-nio-8080-exec-84] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+29-Mar-2018 14:22:03.610 INFO [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+29-Mar-2018 14:22:03.625 WARNING [http-nio-8080-exec-90] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+29-Mar-2018 14:22:04.361 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 14:22:05.011 INFO [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,401] ms
+29-Mar-2018 14:22:05.015 INFO [http-nio-8080-exec-79] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.

@@ -1,0 +1,633 @@
+28-Mar-2018 10:28:47.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+28-Mar-2018 10:28:47.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+28-Mar-2018 10:28:47.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+28-Mar-2018 10:28:47.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Mar-2018 10:28:47.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Mar-2018 10:28:47.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2018 10:28:47.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|RIPLC0018
+28-Mar-2018 10:28:47.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2018 10:28:47.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2018 10:28:47.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 10:28:47.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 10:28:47.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+28-Mar-2018 10:28:47.181 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+28-Mar-2018 10:28:47.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 10:28:47.878 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2018 10:28:47.881 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 10:28:47.885 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2018 10:28:47.885 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1222 ms
+28-Mar-2018 10:28:47.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2018 10:28:47.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+28-Mar-2018 10:28:47.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml]
+28-Mar-2018 10:28:48.120 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 10:28:53.664 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = dbtreport Ignoring unknown property: value of "DB Connection" for "description" property
+28-Mar-2018 10:28:53.740 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:28:55.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml] has finished in [7,668] ms
+28-Mar-2018 10:28:55.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+28-Mar-2018 10:28:55.636 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 10:28:58.469 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:28:59.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [3,809] ms
+28-Mar-2018 10:28:59.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+28-Mar-2018 10:28:59.479 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 10:29:03.393 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 10:29:03.393 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 10:29:03.393 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 10:29:03.393 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 10:29:03.413 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:04.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [4,884] ms
+28-Mar-2018 10:29:04.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+28-Mar-2018 10:29:12.811 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 10:29:12.811 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 10:29:12.819 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:13.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [9,116] ms
+28-Mar-2018 10:29:13.441 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+28-Mar-2018 10:29:13.604 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:13.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [165] ms
+28-Mar-2018 10:29:13.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+28-Mar-2018 10:29:15.146 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:15.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,600] ms
+28-Mar-2018 10:29:15.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS]
+28-Mar-2018 10:29:15.311 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:15.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS] has finished in [107] ms
+28-Mar-2018 10:29:15.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+28-Mar-2018 10:29:15.464 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:15.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [153] ms
+28-Mar-2018 10:29:15.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+28-Mar-2018 10:29:15.612 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:15.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [148] ms
+28-Mar-2018 10:29:15.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+28-Mar-2018 10:29:15.714 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:29:15.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [101] ms
+28-Mar-2018 10:29:15.720 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 10:29:15.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 10:29:15.749 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 27863 ms
+28-Mar-2018 10:30:59.836 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 10:30:59.992 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:30:59.994 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [158] ms
+28-Mar-2018 10:30:59.999 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 10:44:27.762 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DWS]
+28-Mar-2018 10:44:32.222 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 10:44:32.448 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 10:44:32.452 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [230] ms
+28-Mar-2018 10:44:32.459 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 14:25:43.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+28-Mar-2018 14:25:43.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:25:43.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+28-Mar-2018 14:25:43.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2018 14:25:43.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|RIPLC0018
+28-Mar-2018 14:25:43.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2018 14:25:43.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2018 14:25:43.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:25:43.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:25:43.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+28-Mar-2018 14:25:43.899 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+28-Mar-2018 14:25:44.374 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:25:44.630 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2018 14:25:44.632 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:25:44.634 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2018 14:25:44.634 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1681 ms
+28-Mar-2018 14:25:44.723 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2018 14:25:44.723 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+28-Mar-2018 14:25:44.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml]
+28-Mar-2018 14:25:44.904 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:25:50.317 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = dbtreport Ignoring unknown property: value of "DB Connection" for "description" property
+28-Mar-2018 14:25:50.404 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:25:52.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml] has finished in [8,036] ms
+28-Mar-2018 14:25:52.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+28-Mar-2018 14:25:52.778 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:25:56.082 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:25:57.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [4,594] ms
+28-Mar-2018 14:25:57.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+28-Mar-2018 14:25:57.382 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:26:00.223 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:26:00.223 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:26:00.224 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:26:00.224 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:26:00.244 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:01.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [3,888] ms
+28-Mar-2018 14:26:01.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 14:26:01.519 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:01.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [267] ms
+28-Mar-2018 14:26:01.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+28-Mar-2018 14:26:03.775 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:26:03.775 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:26:03.787 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:04.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [2,754] ms
+28-Mar-2018 14:26:04.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+28-Mar-2018 14:26:04.403 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:04.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [128] ms
+28-Mar-2018 14:26:04.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+28-Mar-2018 14:26:05.554 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:05.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,209] ms
+28-Mar-2018 14:26:05.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS]
+28-Mar-2018 14:26:05.719 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:05.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS] has finished in [106] ms
+28-Mar-2018 14:26:05.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+28-Mar-2018 14:26:05.841 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:05.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [124] ms
+28-Mar-2018 14:26:05.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+28-Mar-2018 14:26:05.984 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:05.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [141] ms
+28-Mar-2018 14:26:05.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+28-Mar-2018 14:26:06.091 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:06.093 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [106] ms
+28-Mar-2018 14:26:06.097 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:26:06.121 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:26:06.125 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 21489 ms
+28-Mar-2018 14:26:28.863 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+28-Mar-2018 14:26:28.872 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+28-Mar-2018 14:26:28.873 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:26:29.955 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:26:29.955 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:26:29.955 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:26:29.956 WARNING [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:26:29.966 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:26:30.588 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,716] ms
+28-Mar-2018 14:26:33.613 SEVERE [http-nio-8080-exec-3] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+28-Mar-2018 14:26:39.926 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Mar-2018 14:26:39.926 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:26:40.058 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:26:40.288 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2018 14:26:40.515 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:26:40.517 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:26:40.518 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:26:40.519 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:42:44.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+28-Mar-2018 14:42:44.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+28-Mar-2018 14:42:44.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+28-Mar-2018 14:42:44.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|RIPLC0018
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+28-Mar-2018 14:42:44.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+28-Mar-2018 14:42:44.460 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+28-Mar-2018 14:42:44.576 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:42:44.765 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2018 14:42:44.766 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:42:44.769 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2018 14:42:44.769 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 709 ms
+28-Mar-2018 14:42:44.797 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2018 14:42:44.797 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+28-Mar-2018 14:42:44.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml]
+28-Mar-2018 14:42:44.845 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:42:46.681 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = dbtreport Ignoring unknown property: value of "DB Connection" for "description" property
+28-Mar-2018 14:42:46.789 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:48.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhaar.xml] has finished in [3,511] ms
+28-Mar-2018 14:42:48.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+28-Mar-2018 14:42:48.321 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:42:49.592 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:50.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [2,043] ms
+28-Mar-2018 14:42:50.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+28-Mar-2018 14:42:50.379 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:42:50.929 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:42:50.930 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:42:50.930 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:42:50.931 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:42:50.948 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:51.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,300] ms
+28-Mar-2018 14:42:51.660 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 14:42:51.798 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:51.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [140] ms
+28-Mar-2018 14:42:51.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+28-Mar-2018 14:42:52.694 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:42:52.695 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:42:52.712 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:53.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [1,973] ms
+28-Mar-2018 14:42:53.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+28-Mar-2018 14:42:53.940 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:53.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [169] ms
+28-Mar-2018 14:42:53.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+28-Mar-2018 14:42:55.280 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:55.321 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,378] ms
+28-Mar-2018 14:42:55.321 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS]
+28-Mar-2018 14:42:55.409 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:55.411 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS] has finished in [90] ms
+28-Mar-2018 14:42:55.411 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+28-Mar-2018 14:42:55.542 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:55.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [135] ms
+28-Mar-2018 14:42:55.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+28-Mar-2018 14:42:55.730 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:55.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [186] ms
+28-Mar-2018 14:42:55.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+28-Mar-2018 14:42:55.867 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:42:55.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [136] ms
+28-Mar-2018 14:42:55.873 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 14:42:55.882 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 14:42:55.884 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11114 ms
+28-Mar-2018 14:43:19.294 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+28-Mar-2018 14:43:19.313 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+28-Mar-2018 14:43:19.319 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-Mar-2018 14:43:19.964 WARNING [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:43:19.964 WARNING [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:43:19.965 WARNING [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 14:43:19.965 WARNING [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 14:43:19.981 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 14:43:20.736 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,423] ms
+28-Mar-2018 14:43:23.330 SEVERE [http-nio-8080-exec-1] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+28-Mar-2018 15:33:59.170 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DWS]
+28-Mar-2018 15:34:14.241 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 15:34:14.384 INFO [http-nio-8080-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 15:34:14.387 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [146] ms
+28-Mar-2018 15:34:14.391 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 16:24:13.575 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DWS]
+28-Mar-2018 16:24:16.918 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 16:24:17.096 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 16:24:17.099 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [181] ms
+28-Mar-2018 16:24:17.103 INFO [http-nio-8080-exec-27] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 16:26:14.059 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DWS]
+28-Mar-2018 16:26:33.210 INFO [http-nio-8080-exec-35] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 16:26:33.354 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 16:26:33.355 INFO [http-nio-8080-exec-35] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [145] ms
+28-Mar-2018 16:26:33.358 INFO [http-nio-8080-exec-34] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 17:25:08.116 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DWS]
+28-Mar-2018 17:25:14.984 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 17:25:15.156 INFO [http-nio-8080-exec-43] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 17:25:15.161 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [176] ms
+28-Mar-2018 17:25:15.164 INFO [http-nio-8080-exec-46] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 17:28:56.294 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DWS]
+28-Mar-2018 17:29:06.680 INFO [http-nio-8080-exec-60] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml]
+28-Mar-2018 17:29:06.843 INFO [http-nio-8080-exec-60] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 17:29:06.845 INFO [http-nio-8080-exec-60] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DWS.xml] has finished in [165] ms
+28-Mar-2018 17:29:06.848 INFO [http-nio-8080-exec-52] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DWS]] after start() had already been called. The second call will be ignored.
+28-Mar-2018 19:03:35.686 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+28-Mar-2018 19:03:38.279 WARNING [http-nio-8080-exec-69] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 19:03:38.280 WARNING [http-nio-8080-exec-69] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 19:03:38.281 WARNING [http-nio-8080-exec-69] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Mar-2018 19:03:38.281 WARNING [http-nio-8080-exec-69] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Mar-2018 19:03:38.313 INFO [http-nio-8080-exec-69] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2018 19:03:39.649 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+28-Mar-2018 19:03:39.911 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Mar-2018 19:03:39.912 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 19:03:40.067 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 19:03:40.193 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2018 19:03:40.349 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 19:03:40.351 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2018 19:03:40.353 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Mar-2018 19:03:40.354 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

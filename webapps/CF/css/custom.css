@@ -1,0 +1,84 @@
+body{
+	margin : 0px !important;
+	/*background-color: lightgray;*/
+}
+
+.loginbox{
+	border-radius: 25px;
+	background-color:#e7dde78c;
+	width: 30%;
+	height:450px;
+	margin-left: 35%;
+	position:  relative;
+    margin-top: -650px;
+    z-index: 20;
+}
+
+.loginstrip{
+	position: relative;
+	z-index: 30;
+}
+
+.loginstrip img{
+	margin-top: -40px;
+	width: 100%;
+}
+
+.loginstrip H1{
+	font-family:Comic Sans MS;
+	padding-top: 40px;
+	position: relative;
+	z-index: 50;
+}
+
+.form-control{
+	/*margin-left: 40px !important; */
+	width: 75% !important;
+}
+
+.form-group{
+	font-family:Comic Sans MS;
+	font-size:18px;
+	margin-left: 60px !important;
+}
+
+.submitbutton{
+	font-family:Comic Sans MS;
+	padding-top: 20px;
+	margin-left: 60px;
+}
+
+.submitbutton button{
+	width: 77% !important;
+}
+
+.fade{
+	z-index: 1;
+}
+
+H1{
+	font-family:Comic Sans MS;
+}
+
+.topbar{
+	position:relative;
+	
+}
+
+.dashback{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background:#2d2d71;
+	height: 85%;
+	width: 70%;
+	margin-left: 400px;
+	margin-top: 5px;
+	
+}
+
+
+.profilepic img {
+  border-radius: 50%;
+  margin-top: 10px;
+    margin-left: 80%;
+    width: 70px;
+}

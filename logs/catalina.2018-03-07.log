@@ -1,0 +1,228 @@
+07-Mar-2018 10:07:20.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+07-Mar-2018 10:07:20.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+07-Mar-2018 10:07:20.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+07-Mar-2018 10:07:20.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 10:07:20.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Navin-Chirumalla
+07-Mar-2018 10:07:20.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 10:07:20.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 10:07:20.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+07-Mar-2018 10:07:20.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+07-Mar-2018 10:07:20.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+07-Mar-2018 10:07:20.131 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+07-Mar-2018 10:07:20.733 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 10:07:20.963 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 10:07:20.966 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 10:07:20.968 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 10:07:20.968 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1356 ms
+07-Mar-2018 10:07:21.068 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 10:07:21.068 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+07-Mar-2018 10:07:21.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:07:21.234 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:07:22.767 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortal Ignoring unknown property: value of "DB Connection" for "description" property
+07-Mar-2018 10:07:22.848 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:24.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [3,221] ms
+07-Mar-2018 10:07:24.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+07-Mar-2018 10:07:24.338 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:07:28.879 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+07-Mar-2018 10:07:28.879 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+07-Mar-2018 10:07:28.880 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+07-Mar-2018 10:07:28.880 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+07-Mar-2018 10:07:28.890 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:29.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [5,262] ms
+07-Mar-2018 10:07:29.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+07-Mar-2018 10:07:31.567 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+07-Mar-2018 10:07:31.567 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+07-Mar-2018 10:07:31.585 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:32.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [2,841] ms
+07-Mar-2018 10:07:32.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+07-Mar-2018 10:07:32.559 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:32.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [145] ms
+07-Mar-2018 10:07:32.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+07-Mar-2018 10:07:34.069 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:34.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,556] ms
+07-Mar-2018 10:07:34.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+07-Mar-2018 10:07:34.235 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:34.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [120] ms
+07-Mar-2018 10:07:34.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+07-Mar-2018 10:07:34.362 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:34.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [126] ms
+07-Mar-2018 10:07:34.364 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+07-Mar-2018 10:07:34.465 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 10:07:34.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [102] ms
+07-Mar-2018 10:07:34.469 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 10:07:34.492 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 10:07:34.497 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 13527 ms
+07-Mar-2018 10:14:56.939 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:14:56.984 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:14:59.512 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:14:59.562 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:14:59.582 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:15:02.078 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:15:02.118 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:15:02.147 WARNING [http-nio-8080-exec-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:15:03.934 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:15:04.002 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:15:04.044 WARNING [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:15:06.151 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:17:53.212 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:17:53.285 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:17:54.811 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:18:28.560 WARNING [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:40)
+07-Mar-2018 10:18:29.063 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:19:52.162 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:19:52.165 WARNING [http-nio-8080-exec-27] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:19:53.379 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,217] ms
+07-Mar-2018 10:19:53.383 INFO [http-nio-8080-exec-17] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:19:55.522 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:19:56.024 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:19:56.030 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:19:56.033 WARNING [http-nio-8080-exec-22] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:19:57.215 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,185] ms
+07-Mar-2018 10:19:58.776 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:19:59.278 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:20:07.904 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:20:07.907 WARNING [http-nio-8080-exec-31] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:20:09.278 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,374] ms
+07-Mar-2018 10:20:09.282 INFO [http-nio-8080-exec-28] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:31:34.526 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:31:34.562 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:31:36.765 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:31:37.596 WARNING [http-nio-8080-exec-35] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:31:38.098 INFO [http-nio-8080-exec-35] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:31:43.754 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:31:43.756 WARNING [http-nio-8080-exec-41] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:31:45.580 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,826] ms
+07-Mar-2018 10:31:45.583 INFO [http-nio-8080-exec-40] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:37:00.701 WARNING [http-nio-8080-exec-44] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:37:01.203 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:37:01.210 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:37:01.214 WARNING [http-nio-8080-exec-43] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:37:02.381 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,171] ms
+07-Mar-2018 10:37:47.766 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:37:47.784 WARNING [http-nio-8080-exec-45] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:37:49.657 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:37:50.891 WARNING [http-nio-8080-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:37:51.393 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:37:56.222 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:37:56.225 WARNING [http-nio-8080-exec-51] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:37:57.647 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,425] ms
+07-Mar-2018 10:37:57.650 INFO [http-nio-8080-exec-54] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:39:10.201 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:39:10.226 WARNING [http-nio-8080-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:39:11.892 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:40:12.642 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:40:12.661 WARNING [http-nio-8080-exec-53] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:40:14.365 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:42:35.623 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:42:35.650 WARNING [http-nio-8080-exec-68] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:42:37.255 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:42:38.676 WARNING [http-nio-8080-exec-70] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:42:39.177 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:42:44.190 INFO [http-nio-8080-exec-73] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:42:44.194 WARNING [http-nio-8080-exec-73] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:42:45.536 INFO [http-nio-8080-exec-73] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,346] ms
+07-Mar-2018 10:42:45.540 INFO [http-nio-8080-exec-47] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:42:59.499 WARNING [http-nio-8080-exec-70] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:43:00.002 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:43:00.021 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:43:00.027 WARNING [http-nio-8080-exec-74] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:43:01.414 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,393] ms
+07-Mar-2018 10:43:17.880 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:43:17.898 WARNING [http-nio-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:43:19.707 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:43:21.583 WARNING [http-nio-8080-exec-70] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:43:22.085 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:43:27.794 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:43:27.797 WARNING [http-nio-8080-exec-75] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:43:29.367 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,573] ms
+07-Mar-2018 10:43:29.371 INFO [http-nio-8080-exec-81] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:50:10.285 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:50:10.310 WARNING [http-nio-8080-exec-89] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:50:11.764 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:50:11.793 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:50:11.824 WARNING [http-nio-8080-exec-94] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:50:13.587 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:50:33.221 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:50:33.238 WARNING [http-nio-8080-exec-90] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+07-Mar-2018 10:50:34.959 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:53:21.655 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:53:21.685 WARNING [http-nio-8080-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:53:23.144 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 10:53:30.920 WARNING [http-nio-8080-exec-103] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:53:31.422 INFO [http-nio-8080-exec-103] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 10:53:36.245 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+07-Mar-2018 10:53:36.248 WARNING [http-nio-8080-exec-100] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+07-Mar-2018 10:53:38.091 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,846] ms
+07-Mar-2018 10:53:38.094 INFO [http-nio-8080-exec-86] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+07-Mar-2018 10:59:46.332 INFO [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+07-Mar-2018 10:59:46.357 WARNING [http-nio-8080-exec-107] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 10:59:47.872 INFO [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+07-Mar-2018 11:00:12.614 WARNING [http-nio-8080-exec-111] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Aadhar2LongCode] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+07-Mar-2018 11:00:13.116 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+07-Mar-2018 16:07:54.998 INFO [http-nio-8080-exec-120] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+07-Mar-2018 16:07:58.397 INFO [http-nio-8080-exec-120] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+07-Mar-2018 16:07:59.859 INFO [http-nio-8080-exec-120] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+07-Mar-2018 18:02:23.952 INFO [http-nio-8080-exec-118] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+07-Mar-2018 18:02:24.198 INFO [http-nio-8080-exec-121] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.

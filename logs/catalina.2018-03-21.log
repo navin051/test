@@ -1,0 +1,349 @@
+21-Mar-2018 14:33:11.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+21-Mar-2018 14:33:11.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+21-Mar-2018 14:33:11.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 14:33:11.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+21-Mar-2018 14:33:11.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+21-Mar-2018 14:33:11.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+21-Mar-2018 14:33:11.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 14:33:11.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|RIPLC0018
+21-Mar-2018 14:33:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 14:33:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 14:33:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+21-Mar-2018 14:33:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+21-Mar-2018 14:33:11.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+21-Mar-2018 14:33:11.905 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+21-Mar-2018 14:33:12.598 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 14:33:12.936 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 14:33:12.939 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 14:33:12.942 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 14:33:12.942 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1652 ms
+21-Mar-2018 14:33:13.094 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 14:33:13.095 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+21-Mar-2018 14:33:13.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 14:33:16.104 INFO [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortal Ignoring unknown property: value of "DB Connection" for "description" property
+21-Mar-2018 14:33:16.193 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:18.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [4,960] ms
+21-Mar-2018 14:33:18.107 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+21-Mar-2018 14:33:18.125 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 14:33:22.215 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+21-Mar-2018 14:33:22.216 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+21-Mar-2018 14:33:22.217 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+21-Mar-2018 14:33:22.217 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+21-Mar-2018 14:33:22.233 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:23.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [5,251] ms
+21-Mar-2018 14:33:23.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+21-Mar-2018 14:33:25.834 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+21-Mar-2018 14:33:25.834 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+21-Mar-2018 14:33:25.864 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:26.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [3,189] ms
+21-Mar-2018 14:33:26.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+21-Mar-2018 14:33:26.688 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:26.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [141] ms
+21-Mar-2018 14:33:26.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+21-Mar-2018 14:33:28.321 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:28.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,720] ms
+21-Mar-2018 14:33:28.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS]
+21-Mar-2018 14:33:28.533 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:28.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\Final_DWS] has finished in [125] ms
+21-Mar-2018 14:33:28.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+21-Mar-2018 14:33:28.663 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:28.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [132] ms
+21-Mar-2018 14:33:28.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+21-Mar-2018 14:33:28.866 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:28.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [201] ms
+21-Mar-2018 14:33:28.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+21-Mar-2018 14:33:29.005 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 14:33:29.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [138] ms
+21-Mar-2018 14:33:29.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 14:33:29.046 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 14:33:29.048 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16105 ms
+21-Mar-2018 14:33:35.854 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 14:33:35.889 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 14:33:37.603 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,714] ms
+21-Mar-2018 14:35:32.022 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 14:35:34.701 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 14:37:13.074 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 14:37:14.813 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 14:37:14.860 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 14:37:16.361 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 14:37:31.121 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 14:37:32.480 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 14:38:10.541 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 14:38:12.167 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 14:38:14.537 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 14:38:19.422 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 14:38:20.871 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,448] ms
+21-Mar-2018 14:38:20.875 INFO [http-nio-8080-exec-13] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 14:44:33.447 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 14:44:34.967 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:15:35.412 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:15:48.692 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:17:41.766 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:17:49.373 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:19:31.797 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:19:33.787 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:19:53.730 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:19:55.918 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:30:40.627 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:30:46.571 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:31:45.523 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:31:47.067 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:35:12.249 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:35:14.028 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:42:32.307 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:42:33.812 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:42:33.857 INFO [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:42:35.369 INFO [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:43:32.781 INFO [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:43:35.063 INFO [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:44:10.849 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:44:12.616 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:44:16.556 INFO [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:44:18.128 INFO [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:45:16.825 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:45:18.414 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:45:56.742 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 16:45:58.462 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 16:46:36.955 INFO [http-nio-8080-exec-86] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:46:52.428 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:46:54.566 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [2,139] ms
+21-Mar-2018 16:46:54.571 INFO [http-nio-8080-exec-102] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 16:47:58.322 INFO [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:47:58.334 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:47:58.339 WARNING [http-nio-8080-exec-100] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:47:59.892 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,559] ms
+21-Mar-2018 16:48:08.188 INFO [http-nio-8080-exec-113] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:48:08.207 INFO [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:48:08.213 WARNING [http-nio-8080-exec-107] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:48:09.390 INFO [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,184] ms
+21-Mar-2018 16:48:47.397 INFO [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:48:52.497 INFO [http-nio-8080-exec-108] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:48:52.500 WARNING [http-nio-8080-exec-108] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:48:53.972 INFO [http-nio-8080-exec-108] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,475] ms
+21-Mar-2018 16:48:53.977 INFO [http-nio-8080-exec-111] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 16:50:24.568 INFO [http-nio-8080-exec-86] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:50:30.073 INFO [http-nio-8080-exec-110] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:50:30.078 WARNING [http-nio-8080-exec-110] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:50:31.394 INFO [http-nio-8080-exec-110] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,321] ms
+21-Mar-2018 16:50:31.398 INFO [http-nio-8080-exec-119] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 16:53:47.733 INFO [http-nio-8080-exec-130] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:53:51.079 INFO [http-nio-8080-exec-121] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:53:51.082 WARNING [http-nio-8080-exec-121] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:53:52.419 INFO [http-nio-8080-exec-121] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,340] ms
+21-Mar-2018 16:53:52.423 INFO [http-nio-8080-exec-128] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 16:58:07.012 SEVERE [http-nio-8080-exec-132] comm.Innowave.service.UserModuleService.loginModuleService null
+ java.sql.SQLException: Cannot create JDBC driver of class '' for connect URL 'null'
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createConnectionFactory(BasicDataSource.java:2167)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:2037)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:1543)
+	at comm.Innowave.service.UserModuleService.loginModuleService(UserModuleService.java:102)
+	at comm.Innowave.rest.UserModule.loginUser(UserModule.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: No suitable driver
+	at java.sql.DriverManager.getDriver(DriverManager.java:315)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createConnectionFactory(BasicDataSource.java:2151)
+	... 51 more
+
+21-Mar-2018 16:59:27.703 INFO [http-nio-8080-exec-136] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:59:27.712 INFO [http-nio-8080-exec-141] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:59:27.717 WARNING [http-nio-8080-exec-141] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:59:29.194 INFO [http-nio-8080-exec-141] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,482] ms
+21-Mar-2018 16:59:36.281 INFO [http-nio-8080-exec-133] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 16:59:41.159 INFO [http-nio-8080-exec-139] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 16:59:41.161 WARNING [http-nio-8080-exec-139] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 16:59:42.983 INFO [http-nio-8080-exec-139] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,825] ms
+21-Mar-2018 16:59:43.004 INFO [http-nio-8080-exec-133] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 17:00:24.898 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 17:00:26.651 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 17:00:27.212 INFO [http-nio-8080-exec-146] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 17:00:31.317 INFO [http-nio-8080-exec-137] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 17:00:31.320 WARNING [http-nio-8080-exec-137] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 17:00:32.604 INFO [http-nio-8080-exec-137] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,287] ms
+21-Mar-2018 17:00:32.607 INFO [http-nio-8080-exec-143] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 17:04:02.003 INFO [http-nio-8080-exec-154] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 17:04:02.032 WARNING [http-nio-8080-exec-154] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 17:04:03.864 INFO [http-nio-8080-exec-154] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 17:04:04.457 WARNING [http-nio-8080-exec-155] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 17:04:04.960 INFO [http-nio-8080-exec-155] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 17:04:10.875 INFO [http-nio-8080-exec-152] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 17:04:10.879 WARNING [http-nio-8080-exec-152] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 17:04:13.192 INFO [http-nio-8080-exec-152] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [2,317] ms
+21-Mar-2018 17:04:13.198 INFO [http-nio-8080-exec-162] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 18:11:14.328 INFO [http-nio-8080-exec-167] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:11:15.990 WARNING [http-nio-8080-exec-167] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:11:19.520 INFO [http-nio-8080-exec-167] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:11:52.524 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:11:52.554 WARNING [http-nio-8080-exec-169] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:11:54.277 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:14:42.840 INFO [http-nio-8080-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:14:42.865 WARNING [http-nio-8080-exec-177] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:14:44.885 INFO [292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:16:51.070 INFO [http-nio-8080-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:16:51.108 WARNING [http-nio-8080-exec-182] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:16:52.815 INFO [http-nio-8080-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:22:49.919 INFO [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:22:49.940 WARNING [http-nio-8080-exec-189] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:22:51.696 INFO [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:24:46.816 INFO [http-nio-8080-exec-194] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:24:46.839 WARNING [http-nio-8080-exec-194] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:24:48.337 INFO [http-nio-8080-exec-194] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:25:02.997 INFO [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:25:03.015 WARNING [http-nio-8080-exec-197] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:25:04.423 INFO [http-nio-8080-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:25:09.212 INFO [http-nio-8080-exec-192] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:25:09.230 WARNING [http-nio-8080-exec-192] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:25:10.584 INFO [http-nio-8080-exec-192] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:25:13.189 WARNING [http-nio-8080-exec-199] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:25:13.693 INFO [http-nio-8080-exec-199] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 18:25:19.970 INFO [http-nio-8080-exec-195] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 18:25:20.000 WARNING [http-nio-8080-exec-195] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 18:25:21.353 INFO [http-nio-8080-exec-195] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,371] ms
+21-Mar-2018 18:25:21.359 INFO [http-nio-8080-exec-201] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 18:28:24.629 WARNING [http-nio-8080-exec-215] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:28:25.131 INFO [http-nio-8080-exec-215] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 18:28:29.569 INFO [http-nio-8080-exec-216] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 18:28:29.571 WARNING [http-nio-8080-exec-216] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 18:28:30.812 INFO [http-nio-8080-exec-216] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,243] ms
+21-Mar-2018 18:28:30.816 INFO [http-nio-8080-exec-209] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 18:31:13.217 INFO [http-nio-8080-exec-219] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:31:13.248 WARNING [http-nio-8080-exec-219] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:31:14.779 INFO [354] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:31:39.949 INFO [http-nio-8080-exec-223] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:31:39.989 WARNING [http-nio-8080-exec-223] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:31:41.748 INFO [http-nio-8080-exec-223] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:33:01.793 INFO [http-nio-8080-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:33:01.829 WARNING [http-nio-8080-exec-233] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:33:03.315 INFO [http-nio-8080-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:33:03.750 WARNING [http-nio-8080-exec-234] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:33:04.253 INFO [http-nio-8080-exec-234] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 18:33:07.605 INFO [http-nio-8080-exec-222] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 18:33:07.608 WARNING [http-nio-8080-exec-222] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 18:33:08.977 INFO [http-nio-8080-exec-222] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,373] ms
+21-Mar-2018 18:33:08.980 INFO [http-nio-8080-exec-224] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 18:35:46.323 INFO [http-nio-8080-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:35:46.393 WARNING [http-nio-8080-exec-239] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:35:47.939 INFO [http-nio-8080-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:35:48.962 WARNING [http-nio-8080-exec-245] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:35:49.464 INFO [http-nio-8080-exec-245] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 18:35:53.727 INFO [http-nio-8080-exec-241] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 18:35:53.730 WARNING [http-nio-8080-exec-241] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 18:35:55.032 INFO [http-nio-8080-exec-241] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,306] ms
+21-Mar-2018 18:35:55.035 INFO [http-nio-8080-exec-236] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 18:36:42.909 INFO [http-nio-8080-exec-240] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] has started
+21-Mar-2018 18:36:42.930 WARNING [http-nio-8080-exec-240] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:36:44.409 INFO [http-nio-8080-exec-240] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBT2] is completed
+21-Mar-2018 18:36:44.733 WARNING [http-nio-8080-exec-254] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:36:45.236 INFO [http-nio-8080-exec-254] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBT2]
+21-Mar-2018 18:36:49.487 INFO [http-nio-8080-exec-251] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml]
+21-Mar-2018 18:36:49.490 WARNING [http-nio-8080-exec-251] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Mar-2018 18:36:51.042 INFO [http-nio-8080-exec-251] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBT2.xml] has finished in [1,555] ms
+21-Mar-2018 18:36:51.045 INFO [http-nio-8080-exec-246] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBT2]] after start() had already been called. The second call will be ignored.
+21-Mar-2018 18:44:25.492 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2018 18:44:25.493 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 18:44:25.653 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 18:44:25.811 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2018 18:44:28.717 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:44:31.987 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [JerseyTestCLient] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+21-Mar-2018 18:44:32.006 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBT2] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+21-Mar-2018 18:44:32.011 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 18:44:32.013 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 18:44:32.015 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 18:44:32.042 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,748 @@
+20-Jan-2018 11:00:44.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+20-Jan-2018 11:00:44.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+20-Jan-2018 11:00:44.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jan-2018 11:00:44.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Navin-Chirumalla
+20-Jan-2018 11:00:44.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jan-2018 11:00:44.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jan-2018 11:00:44.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:00:44.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:00:44.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+20-Jan-2018 11:00:44.976 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+20-Jan-2018 11:00:45.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:00:45.470 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jan-2018 11:00:45.472 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:00:45.475 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jan-2018 11:00:45.475 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 880 ms
+20-Jan-2018 11:00:45.549 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jan-2018 11:00:45.550 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+20-Jan-2018 11:00:45.564 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+20-Jan-2018 11:00:46.160 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:00:46.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [633] ms
+20-Jan-2018 11:00:46.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+20-Jan-2018 11:00:47.612 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:00:47.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,450] ms
+20-Jan-2018 11:00:47.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+20-Jan-2018 11:00:47.813 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:00:47.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [168] ms
+20-Jan-2018 11:00:47.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+20-Jan-2018 11:00:47.977 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:00:47.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [163] ms
+20-Jan-2018 11:00:47.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+20-Jan-2018 11:00:48.147 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:00:48.148 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [169] ms
+20-Jan-2018 11:00:48.150 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:00:48.156 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:00:48.159 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2683 ms
+20-Jan-2018 11:00:53.347 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:53.592 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:54.192 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:54.410 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:54.906 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:55.111 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:55.605 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:55.791 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:56.034 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:56.225 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:56.505 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:56.739 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:56.944 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:57.150 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:57.360 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:57.802 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:00:57.993 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:01:03.130 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:01:03.764 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:01:04.354 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:01:07.726 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:02:22.505 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:02:23.211 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:02:28.538 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [navin]
+20-Jan-2018 11:02:29.444 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jan-2018 11:02:29.444 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:02:29.534 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:02:29.620 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jan-2018 11:02:29.672 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:02:29.674 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:02:29.677 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:02:29.678 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:02:38.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+20-Jan-2018 11:02:38.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+20-Jan-2018 11:02:38.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+20-Jan-2018 11:02:38.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Jan-2018 11:02:38.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Navin-Chirumalla
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jan-2018 11:02:38.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jan-2018 11:02:38.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:02:38.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+20-Jan-2018 11:02:38.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+20-Jan-2018 11:02:38.778 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+20-Jan-2018 11:02:38.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:02:39.033 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jan-2018 11:02:39.037 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:02:39.039 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jan-2018 11:02:39.040 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 594 ms
+20-Jan-2018 11:02:39.066 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jan-2018 11:02:39.066 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+20-Jan-2018 11:02:39.077 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+20-Jan-2018 11:02:39.463 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:02:39.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [424] ms
+20-Jan-2018 11:02:39.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+20-Jan-2018 11:02:39.796 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:02:39.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [338] ms
+20-Jan-2018 11:02:39.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+20-Jan-2018 11:02:39.958 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:02:39.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [121] ms
+20-Jan-2018 11:02:39.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+20-Jan-2018 11:02:40.082 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:02:40.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [122] ms
+20-Jan-2018 11:02:40.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+20-Jan-2018 11:02:40.181 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:02:40.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [97] ms
+20-Jan-2018 11:02:40.184 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 11:02:40.189 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 11:02:40.191 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1150 ms
+20-Jan-2018 11:03:04.264 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+20-Jan-2018 11:03:04.275 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Jan-2018 11:03:05.012 WARNING [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+20-Jan-2018 11:03:05.012 WARNING [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+20-Jan-2018 11:03:05.021 WARNING [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+20-Jan-2018 11:03:05.021 WARNING [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+20-Jan-2018 11:03:05.037 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 11:03:05.969 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [1,704] ms
+20-Jan-2018 11:03:05.975 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+20-Jan-2018 11:03:07.919 SEVERE [http-nio-8080-exec-9] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+20-Jan-2018 11:06:59.582 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 11:07:01.457 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 11:07:02.606 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 11:07:03.781 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 11:07:04.889 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 11:07:05.988 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 11:07:07.182 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:24:29.360 INFO [http-nio-8080-exec-1] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:24:30.368 INFO [http-nio-8080-exec-1] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:28:59.894 INFO [http-nio-8080-exec-4] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:29:00.897 INFO [http-nio-8080-exec-4] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:34:30.670 INFO [http-nio-8080-exec-7] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:34:31.611 INFO [http-nio-8080-exec-7] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:39:57.636 INFO [http-nio-8080-exec-8] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:39:58.777 INFO [http-nio-8080-exec-8] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:40:17.324 INFO [http-nio-8080-exec-3] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:40:18.176 INFO [http-nio-8080-exec-3] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:43:50.001 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:43:51.033 INFO [http-nio-8080-exec-5] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 14:46:48.985 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:46:49.020 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:46:49.020 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@572ddeb]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@6456be4d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.021 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4445290a]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@37e23dc5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.033 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@18792f81]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3e53255e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.034 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7639533f]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@34515701]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.035 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@215738dd]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@60072831]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.035 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@639b998e]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@4289442e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.036 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39ff0b3]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3cf75ea7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.268 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@601ac651]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3ed3634b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.269 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@25f567f5]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@6e03ef9c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.270 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@12dc2d4c]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3736b611]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.271 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@48fcd270]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3b39206e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.272 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@18dbca92]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@4c573cf4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.274 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@78d8e52b]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@d1dc658]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.274 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f83350d]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@389ca3e3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.275 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d2f866]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@641ed1c2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.318 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2ffd9d0d]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3f7c515c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.321 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@235e64b8]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@4ea89848]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.321 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2de38129]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@3b94a430]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.321 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6bbf6c5e]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@61dfc3b9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.322 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@209c712c]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@29015bf6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.323 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@35e3555e]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@7acb77f2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.323 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2b6b1e8]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@511f7fd4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.323 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5f2c15c6]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@6822c63a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.369 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@464a3673]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@7b3cee9e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.369 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@77b1ba04]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@7d0e2b3a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.369 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3bfe6d1c]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@23051c26]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.369 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@55c5443a]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@1d1b5513]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:49.370 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@c94412f]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@7b6867da]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 14:46:51.183 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:46:51.875 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:49:41.661 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:49:41.679 WARNING [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:49:42.905 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:49:44.054 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:49:51.660 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:49:51.684 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:49:52.226 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:49:52.846 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:56:12.712 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:56:12.730 WARNING [http-nio-8080-exec-22] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:56:13.785 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:56:14.378 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:56:45.138 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:56:45.155 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:56:45.740 INFO [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:56:46.265 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:57:18.803 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:57:18.826 WARNING [http-nio-8080-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:57:19.263 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:57:20.036 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:58:20.369 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:58:20.395 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:58:21.443 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:58:22.362 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:58:22.433 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:58:22.456 WARNING [http-nio-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:58:23.158 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:58:23.704 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 14:58:30.345 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 14:58:30.361 WARNING [http-nio-8080-exec-30] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 14:58:31.168 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 14:58:31.614 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 15:00:13.754 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 15:00:13.773 WARNING [http-nio-8080-exec-21] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:00:14.391 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:00:15.104 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 15:01:03.585 INFO [http-nio-8080-exec-41] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:01:04.574 INFO [http-nio-8080-exec-41] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:01:40.352 INFO [http-nio-8080-exec-43] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:01:41.442 INFO [http-nio-8080-exec-43] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:08:08.738 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 15:08:08.808 WARNING [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:08:08.809 SEVERE [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@282404dc]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@4c5017e7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:08:08.809 SEVERE [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5999938f]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@2778b776]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:08:08.809 SEVERE [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76416299]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@14e0a820]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:08:08.809 SEVERE [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@d7decd5]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@661b6766]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:08:09.815 INFO [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:08:10.278 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 15:08:14.179 WARNING [http-nio-8080-exec-48] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:08:14.682 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+20-Jan-2018 15:08:20.816 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+20-Jan-2018 15:08:20.855 WARNING [http-nio-8080-exec-44] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Jan-2018 15:08:21.520 SEVERE [http-nio-8080-exec-44] org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource Unable to process web resource [/WEB-INF/classes/service/TriggerRequestFile.class] for annotations
+ java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readID(ClassParser.java:199)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:78)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1952)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1946)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1153)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5105)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:467)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1617)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1483)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:904)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:336)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:595)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:319)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:88)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+20-Jan-2018 15:08:22.711 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:08:23.276 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [2,459] ms
+20-Jan-2018 15:08:23.279 INFO [http-nio-8080-exec-54] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+20-Jan-2018 15:08:25.120 SEVERE [http-nio-8080-exec-55] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+20-Jan-2018 15:09:02.658 INFO [http-nio-8080-exec-48] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:09:03.702 INFO [http-nio-8080-exec-48] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:11:43.547 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 15:11:43.569 WARNING [http-nio-8080-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:11:44.511 INFO [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:11:45.242 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 15:11:45.535 WARNING [http-nio-8080-exec-62] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:11:46.036 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+20-Jan-2018 15:11:51.953 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+20-Jan-2018 15:11:51.956 WARNING [http-nio-8080-exec-55] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Jan-2018 15:11:52.400 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:11:52.895 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [942] ms
+20-Jan-2018 15:11:52.898 INFO [http-nio-8080-exec-59] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+20-Jan-2018 15:12:22.416 INFO [http-nio-8080-exec-65] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:12:23.363 INFO [http-nio-8080-exec-65] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:13:27.442 INFO [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 15:13:27.463 WARNING [http-nio-8080-exec-70] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:13:28.501 INFO [http-nio-8080-exec-70] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:13:29.111 INFO [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 15:13:29.327 WARNING [http-nio-8080-exec-68] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:13:29.828 INFO [http-nio-8080-exec-68] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+20-Jan-2018 15:13:33.455 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+20-Jan-2018 15:13:33.459 WARNING [http-nio-8080-exec-72] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Jan-2018 15:13:33.920 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:13:34.430 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [974] ms
+20-Jan-2018 15:13:34.433 INFO [http-nio-8080-exec-75] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+20-Jan-2018 15:13:49.817 INFO [http-nio-8080-exec-77] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:13:50.883 INFO [http-nio-8080-exec-77] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+20-Jan-2018 15:16:52.215 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+20-Jan-2018 15:16:52.233 WARNING [http-nio-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:16:52.233 SEVERE [http-nio-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@39ec1068]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@45d352b1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:16:52.233 SEVERE [http-nio-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20fbadfd]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@51fd23b2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:16:52.234 SEVERE [http-nio-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@42cd4494]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@1027339]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:16:52.234 SEVERE [http-nio-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [DBTPortalPFMS] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@55ed0fdf]) and a value of type [org.apache.commons.vfs2.provider.FileContentThreadData] (value [org.apache.commons.vfs2.provider.FileContentThreadData@300d7d7d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Jan-2018 15:16:52.942 INFO [http-nio-8080-exec-79] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:16:53.736 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+20-Jan-2018 15:16:54.252 WARNING [http-nio-8080-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:16:54.754 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+20-Jan-2018 15:16:58.819 INFO [http-nio-8080-exec-83] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+20-Jan-2018 15:16:58.822 WARNING [http-nio-8080-exec-83] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+20-Jan-2018 15:16:59.284 INFO [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Jan-2018 15:16:59.751 INFO [http-nio-8080-exec-83] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [932] ms
+20-Jan-2018 15:16:59.754 INFO [http-nio-8080-exec-77] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+20-Jan-2018 15:27:20.567 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jan-2018 15:27:20.567 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 15:27:20.671 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 15:27:20.781 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jan-2018 15:27:20.980 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+20-Jan-2018 15:27:20.986 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 15:27:20.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jan-2018 15:27:20.990 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jan-2018 15:27:20.992 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

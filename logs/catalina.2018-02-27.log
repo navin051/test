@@ -1,0 +1,347 @@
+27-Feb-2018 11:39:06.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+27-Feb-2018 11:39:06.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+27-Feb-2018 11:39:06.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+27-Feb-2018 11:39:06.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Feb-2018 11:39:06.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Feb-2018 11:39:06.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Feb-2018 11:39:06.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+27-Feb-2018 11:39:06.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+27-Feb-2018 11:39:06.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Feb-2018 11:39:06.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Server\apache-tomcat-8.5.15
+27-Feb-2018 11:39:06.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Server\apache-tomcat-8.5.15
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Server\apache-tomcat-8.5.15\conf\logging.properties
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Navin-Chirumalla
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Server\apache-tomcat-8.5.15
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Server\apache-tomcat-8.5.15
+27-Feb-2018 11:39:06.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Server\apache-tomcat-8.5.15\temp
+27-Feb-2018 11:39:06.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_144;C:\Go\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;.]
+27-Feb-2018 11:39:07.376 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Feb-2018 11:39:07.685 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2018 11:39:07.687 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Feb-2018 11:39:07.690 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2018 11:39:07.690 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1247 ms
+27-Feb-2018 11:39:07.842 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2018 11:39:07.843 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+27-Feb-2018 11:39:07.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+27-Feb-2018 11:39:07.959 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 11:39:11.677 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+27-Feb-2018 11:39:11.677 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = PostGreSQL Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+27-Feb-2018 11:39:11.707 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+27-Feb-2018 11:39:11.707 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = DBTPortalPFMS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+27-Feb-2018 11:39:11.752 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:13.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [5,864] ms
+27-Feb-2018 11:39:13.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml]
+27-Feb-2018 11:39:15.579 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+27-Feb-2018 11:39:15.580 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Android Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+27-Feb-2018 11:39:15.604 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:16.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\JerseyTestCLient.xml] has finished in [3,107] ms
+27-Feb-2018 11:39:16.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs]
+27-Feb-2018 11:39:17.006 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:17.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\docs] has finished in [175] ms
+27-Feb-2018 11:39:17.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples]
+27-Feb-2018 11:39:18.655 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:18.785 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\examples] has finished in [1,776] ms
+27-Feb-2018 11:39:18.786 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager]
+27-Feb-2018 11:39:18.994 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:18.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\host-manager] has finished in [213] ms
+27-Feb-2018 11:39:18.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager]
+27-Feb-2018 11:39:19.194 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:19.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\manager] has finished in [200] ms
+27-Feb-2018 11:39:19.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT]
+27-Feb-2018 11:39:19.358 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Feb-2018 11:39:19.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Server\apache-tomcat-8.5.15\webapps\ROOT] has finished in [162] ms
+27-Feb-2018 11:39:19.364 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Feb-2018 11:39:19.395 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Feb-2018 11:39:19.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11708 ms
+27-Feb-2018 17:43:09.100 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] has started
+27-Feb-2018 17:43:10.609 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+27-Feb-2018 17:43:14.707 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/DBTPortalPFMS] is completed
+27-Feb-2018 17:43:27.994 WARNING [http-nio-8080-exec-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+27-Feb-2018 17:43:28.499 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/DBTPortalPFMS]
+27-Feb-2018 17:44:03.133 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml]
+27-Feb-2018 17:44:03.165 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 17:44:05.296 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\DBTPortalPFMS.xml] has finished in [2,163] ms
+27-Feb-2018 17:44:05.300 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DBTPortalPFMS]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 17:44:08.007 SEVERE [http-nio-8080-exec-15] org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas Failed to generate the schema for the JAX-B elements
+ com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+Two classes have the same XML type name "orgIdEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OrgIdEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getOrgid()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.OrgIdEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getOrgid()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "pstlAdrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PstlAdrEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPstladr()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PstlAdrEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getPstlAdr()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "othrEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.OthrEntity
+		at public java.util.List PFMSRequestentity.AcctId.getOthr()
+		at PFMSRequestentity.AcctId
+		at public java.util.List PFMSRequestentity.CstmrAcct.getAcctid()
+		at PFMSRequestentity.CstmrAcct
+		at public java.util.List PFMSRequestentity.CstmrEntity.getCstmracct()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.othrEntity
+		at public java.util.List PFMSPaymentEntity.IdEntity.getOthr()
+		at PFMSPaymentEntity.IdEntity
+		at public java.util.List PFMSPaymentEntity.CdtrAcctEntity.getId()
+		at PFMSPaymentEntity.CdtrAcctEntity
+		at public java.util.List PFMSPaymentEntity.CdtrEntity.getCdtracct()
+		at PFMSPaymentEntity.CdtrEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getCdtr()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+Two classes have the same XML type name "purpEntity". Use @XmlType.name and @XmlType.namespace to assign different names to them.
+	this problem is related to the following location:
+		at PFMSRequestentity.PurpEntity
+		at public java.util.List PFMSRequestentity.CstmrEntity.getPurp()
+		at PFMSRequestentity.CstmrEntity
+		at public java.util.List PFMSRequestentity.CstmrTxInf.getCstmr()
+		at PFMSRequestentity.CstmrTxInf
+		at public java.util.List PFMSRequestentity.CustInfEntity.getCusttxninfo()
+		at PFMSRequestentity.CustInfEntity
+		at public java.util.List PFMSRequestentity.LinkHeaderBodyEntity.getCustlist()
+		at PFMSRequestentity.LinkHeaderBodyEntity
+		at public java.util.List PFMSRequestentity.PFMSEntity.getLinkheadbody()
+		at PFMSRequestentity.PFMSEntity
+	this problem is related to the following location:
+		at PFMSPaymentEntity.PurpEntity
+		at public java.util.List PFMSPaymentEntity.CdtTrfTxInfEntity.getPurp()
+		at PFMSPaymentEntity.CdtTrfTxInfEntity
+		at public java.util.List PFMSPaymentEntity.PaymentInfoEntity.getCdttrftxinf()
+		at PFMSPaymentEntity.PaymentInfoEntity
+		at public java.util.List PFMSPaymentEntity.LinkPaymentHeaderBodyEntity.getPaymentinfolist()
+		at PFMSPaymentEntity.LinkPaymentHeaderBodyEntity
+		at public java.util.List PFMSPaymentEntity.PFMSPaymentEntity.getLinkpaymentheadbody()
+		at PFMSPaymentEntity.PFMSPaymentEntity
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(IllegalAnnotationsException.java:91)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(JAXBContextImpl.java:445)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:277)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:124)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1123)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(ContextFactory.java:147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:247)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:234)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:462)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:641)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.buildModelAndSchemas(WadlGeneratorJAXBGrammarGenerator.java:366)
+	at org.glassfish.jersey.server.wadl.internal.generators.WadlGeneratorJAXBGrammarGenerator.createExternalGrammar(WadlGeneratorJAXBGrammarGenerator.java:315)
+	at org.glassfish.jersey.server.wadl.internal.WadlBuilder.generate(WadlBuilder.java:122)
+	at org.glassfish.jersey.server.wadl.internal.WadlApplicationContextImpl.getApplication(WadlApplicationContextImpl.java:144)
+	at org.glassfish.jersey.server.wadl.internal.WadlResource.getWadl(WadlResource.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:164)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:181)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:158)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:101)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:305)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:288)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1110)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:401)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:335)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:222)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Feb-2018 17:49:21.254 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:23.470 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:25.175 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:26.712 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:28.136 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:29.665 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:31.180 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:32.934 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:34.326 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:35.664 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:36.996 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:38.266 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:49:39.546 INFO [http-nio-8080-exec-21] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:35.217 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:36.265 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:37.447 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:38.683 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:39.728 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:40.816 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:42.064 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:43.141 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:44.515 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:45.518 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:47.104 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:48.289 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:55:49.310 INFO [http-nio-8080-exec-19] org.apache.commons.vfs2.impl.StandardFileSystemManager.info Using "D:\Server\apache-tomcat-8.5.15\temp\vfs_cache" as temporary files store.
+27-Feb-2018 17:58:09.077 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 17:58:09.102 WARNING [http-nio-8080-exec-17] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 17:58:10.682 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,605] ms
+27-Feb-2018 17:58:10.688 INFO [http-nio-8080-exec-17] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:03:36.842 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:03:41.324 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:03:41.353 WARNING [http-nio-8080-exec-13] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:03:42.562 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,238] ms
+27-Feb-2018 18:03:42.566 INFO [http-nio-8080-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:04:44.759 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:04:46.411 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:04:46.961 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:04:50.457 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:04:50.459 WARNING [http-nio-8080-exec-30] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:04:51.612 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,155] ms
+27-Feb-2018 18:04:51.615 INFO [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:05:45.363 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:05:46.885 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:05:54.200 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:05:57.148 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:05:57.151 WARNING [http-nio-8080-exec-36] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:05:58.443 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,295] ms
+27-Feb-2018 18:05:58.446 INFO [http-nio-8080-exec-38] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:07:13.858 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:07:15.348 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:07:17.119 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:07:21.214 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:07:21.216 WARNING [http-nio-8080-exec-50] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:07:22.633 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,419] ms
+27-Feb-2018 18:07:22.637 INFO [http-nio-8080-exec-46] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:09:45.711 INFO [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:09:47.269 INFO [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:09:48.357 INFO [http-nio-8080-exec-56] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:09:52.871 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:09:52.888 WARNING [http-nio-8080-exec-57] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:09:54.251 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,381] ms
+27-Feb-2018 18:09:54.254 INFO [http-nio-8080-exec-54] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:11:31.219 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:11:32.623 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:11:34.640 INFO [http-nio-8080-exec-69] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:11:38.432 INFO [http-nio-8080-exec-71] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:11:38.435 WARNING [http-nio-8080-exec-71] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:11:39.870 INFO [http-nio-8080-exec-71] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,438] ms
+27-Feb-2018 18:11:39.874 INFO [http-nio-8080-exec-69] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:12:19.296 INFO [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:12:20.669 INFO [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:12:21.822 INFO [http-nio-8080-exec-79] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:12:25.410 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:12:25.413 WARNING [http-nio-8080-exec-75] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:12:26.811 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,401] ms
+27-Feb-2018 18:12:26.814 INFO [http-nio-8080-exec-69] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:12:59.857 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:13:01.709 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:13:05.463 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:13:11.233 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:13:11.255 WARNING [http-nio-8080-exec-91] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:13:12.579 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,346] ms
+27-Feb-2018 18:13:12.583 INFO [http-nio-8080-exec-89] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:14:01.244 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] has started
+27-Feb-2018 18:14:02.772 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Aadhar2LongCode] is completed
+27-Feb-2018 18:14:03.926 INFO [http-nio-8080-exec-92] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Aadhar2LongCode]
+27-Feb-2018 18:14:16.561 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml]
+27-Feb-2018 18:14:16.584 WARNING [http-nio-8080-exec-100] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Feb-2018 18:14:17.932 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\Server\apache-tomcat-8.5.15\conf\Catalina\localhost\Aadhar2LongCode.xml] has finished in [1,372] ms
+27-Feb-2018 18:14:17.935 INFO [http-nio-8080-exec-96] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Aadhar2LongCode]] after start() had already been called. The second call will be ignored.
+27-Feb-2018 18:33:40.888 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2018 18:33:40.889 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Feb-2018 18:33:41.383 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Feb-2018 18:33:41.661 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2018 18:33:51.421 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DBTPortalPFMS] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+27-Feb-2018 18:33:53.332 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Feb-2018 18:33:53.403 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Feb-2018 18:33:53.420 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Feb-2018 18:33:53.453 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

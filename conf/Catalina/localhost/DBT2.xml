@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" docBase="C:/Users/Lenovo/Documents/NetBeansProjects/DBT2/build/web" path="/DBT2">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="30" maxTotal="1000" maxWaitMillis="100000" name="jdbc/DBTPortal" password="Wh0@m!=reign" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://115.124.113.214:3306/dbtportal?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true" username="root"/>
+</Context>

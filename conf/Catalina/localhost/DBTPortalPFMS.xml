@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" docBase="D:\Projects\PFMSProject\build\web" path="/DBTPortalPFMS" swallowOutput="false">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/DBTPortalPFMS" password="Wh0@m!=reign" type="javax.sql.DataSource" url="jdbc:mysql://10.10.46.165:3306/PFMS" username="ripl"/>
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/PostGreSQL" password="postgres" type="javax.sql.DataSource" url="jdbc:postgresql://10.10.46.166:5432/dbtcab_mh" username="postgres"/>
+  <!--<?xml version="1.0" encoding="UTF-8"?>-->
+  <!--<Context path="/Treasury">-->
+  <!--    <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="100" maxIdle="30"
+     maxWait="10000" type="javax.sql.DataSource" name="jdbc/PostGreSQL" 
+     url="jdbc:postgresql://115.124.113.215:5432/dbtcab_mh" 
+     username="postgres" password="postgres"/> -->
+  <!--     
+     <ResourceLink name="jdbc/dbtcab_mh"
+             global="jdbc/dbtcab_mh"
+              type="javax.sql.DataSource" />-->
+  <!--</Context>-->
+</Context>

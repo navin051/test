@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" docBase="C:\Users\Lenovo\Desktop\Aadhaar2Latest\Aadhaar2\build\web" path="/Aadhaar">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="30" maxTotal="1000" maxWaitMillis="100000" name="jdbc/dbtportal" password="Wh0@m!=reign" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://10.10.46.165:3306/dbtportal?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true" username="root" validationQuery="select 1"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/DBTSms" password="Wh0@m!=reign" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://10.10.46.165:3306/dbt_sms?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true" username="root" validationQuery="select 1"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/DBTEmail" password="Wh0@m!=reign" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://10.10.46.165:3306/smtp_mail_db?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true" username="root" validationQuery="select 1"/>
+</Context>
